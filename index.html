@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    
+    <h1>To-do <span>app</span></h1>
+    
+    <div class="input_group">
+      <form action="#" id="goro">
+        <label for="input_field">Add new task</label>
+        <input type="text" id="input_field">
+        <input type="submit" class="input_btn" value="Add Task">
+      </form>
+    </div>
+    
+    <div class="tasks_wrapper clearfix">
+      
+      <div class="incomplete_list">
+        <h3>Incomplete Tasks</h3>
+        <ul id="items">
+          <li class="item">
+            <input type="checkbox" id=""><label>Test task</label>
+          </li>
+          <li class="item">
+            <input type="checkbox" id=""><label>Test task</label>
+          </li>
+          <li class="item">
+            <input type="checkbox" id=""><label>Test task</label>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="completed_list">
+        <h3>Completed Tasks</h3>
+        <ul id="items">
+          <li class="item">
+            <span>Test task</span> <button class="delete">Delete</button>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

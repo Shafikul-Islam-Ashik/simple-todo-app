@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: roboto;
+  list-style: none;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.container{
+  background: mediumaquamarine;
+  border: 2px solid mediumspringgreen;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+h1{
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+h1 span{
+  color: red;
+}
+.input_group{
+  width: 99%;
+  margin: auto;
+  background: #fff;
+  border: .1rem solid mediumspringgreen;
+  padding: .7rem 2rem;
+  text-align: center;
+  border-radius: 5px;
+}
+.input_group label{
+  font-size:.6rem;
+}
+#input_field{
+  width: 7rem;
+  padding: .2rem.5rem;
+  font-size:.6rem;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.input_btn{
+  border: none;
+  font-size:.6rem;
+  padding:.2rem .8rem;
+  border-radius:.3rem;
+  border: 1px solid #ddd;
+}
+
+
+.tasks_wrapper{
+margin-top: 1rem;
+}
+
+/* incompleted list css */
+
+.incomplete_list{
+  border: .1rem solid #fff9;
+  padding:.4rem;
+  border-radius: 5px;
+  width: 45%;
+ float: left;
+}
+.incomplete_list h3{
+  font-size: 1rem;
+  padding-bottom:.3rem;
+  border-bottom: 2px solid #fff9;
+}
+.incomplete_list #items .item{
+  padding: 3px;
+  border-bottom: 1px solid #fff9;
+}
+.incomplete_list #items{
+  padding-top:.3rem;
+}
+.incomplete_list #items .item label{
+  font-size:.8rem;
+  position: relative;
+  top: -3px;
+  margin-left: 5px;
+  
+}
+
+/* completed list css */
+
+.completed_list{
+  border: .1rem solid #fff9;
+  padding:.4rem;
+  border-radius: 5px;
+  width: 45%;
+  float: right;
+}
+.completed_list h3{
+  font-size: 1rem;
+  padding-bottom:.3rem;
+  border-bottom: 2px solid #fff9;
+}
+.completed_list #items{
+  padding-top:.3rem;
+}
+.completed_list #items .item{
+  padding: 4px;
+  border-bottom: 1px solid #fff9;
+  font-size:.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.delete{
+  border: none;
+  font-size:.6rem;
+  padding: .1rem .5rem;
+  background: red;
+  color: #fff;
+ 
+  border-radius: 5px;
+}
+
+
