@@ -1,7 +1,6 @@
 # live link :
+https://shafikul-islam-ashik.github.io/simple-todo-app/
 
-
-https://shafikul-islam-ashik.github.io/Dom1/
 
 
 over mobile
